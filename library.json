@@ -1,0 +1,45 @@
+{
+  "name": "SuperJupiterEmbeddedReliability",
+  "version": "0.1.0",
+  "description": "SuperJupiter EmbeddedReliability: modular portable C++11 public components. Preview release. Hardware validation pending.",
+  "keywords": [
+    "sensor",
+    "embedded",
+    "esp32",
+    "arduino"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Super-Jupiter/superjupiter-embedded-reliability.git"
+  },
+  "authors": [
+    {
+      "name": "SuperJupiter",
+      "url": "https://www.superjupiter.net",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": [
+    "SuperJupiterEmbeddedReliability.h"
+  ],
+  "export": {
+    "include": [
+      "src/**",
+      "examples/**",
+      "tests/**",
+      "docs/**",
+      "cmake/**",
+      "tools/**",
+      "library.json",
+      "library.properties",
+      "CMakeLists.txt",
+      "README.md",
+      "CHANGELOG.md",
+      "LICENSE",
+      "BASELINE.json"
+    ]
+  }
+}
