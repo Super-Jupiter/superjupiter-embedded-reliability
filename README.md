@@ -22,10 +22,18 @@ components and capacities; no claim of zero flash or RAM cost is made.
 
 ## Installation
 
-Arduino: download the versioned ZIP from the [0.1.0 release](https://github.com/Super-Jupiter/superjupiter-embedded-reliability/releases/tag/v0.1.0) and use Sketch > Include Library > Add .ZIP Library.
-Library Manager registration and index propagation are separate; check the official index before relying on IDE availability.
+**Arduino IDE:** Open Library Manager, search for `SuperJupiterEmbeddedReliability` by SuperJupiter and select version `0.1.0`.
 
-PlatformIO exact version:
+**Arduino CLI:**
+
+```sh
+arduino-cli lib update-index
+arduino-cli lib install "SuperJupiterEmbeddedReliability@0.1.0"
+```
+
+For offline Arduino installation, download the versioned ZIP from the [0.1.0 preview release](https://github.com/Super-Jupiter/superjupiter-embedded-reliability/releases/tag/v0.1.0) and select **Sketch → Include Library → Add .ZIP Library**.
+
+[PlatformIO Registry](https://registry.platformio.org/libraries/superjupiter/SuperJupiterEmbeddedReliability) exact version:
 
 ```ini
 lib_deps = superjupiter/SuperJupiterEmbeddedReliability@0.1.0
