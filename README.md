@@ -53,6 +53,10 @@ See [migration](docs/MIGRATION.md), [validation](docs/VALIDATION.md), and BASELI
 Do not combine legacy and consolidated implementations of the same component in one application.
 Public examples exclude customer information, proprietary products and private configurations.
 
+## Synthetic outage exercise
+
+Use the [synthetic outage sample pack](https://www.superjupiter.net/tools/sensor-data-workbench#outage-sample-pack) to compare delivery attempts with recovered history. The files illustrate the capture-time, retry and record-identity issues relevant to StoreForward and RecordJournal. The exercise requires no hardware.
+
 ## Support
 
 Report reproducible issues through [GitHub issues](https://github.com/Super-Jupiter/superjupiter-embedded-reliability/issues). For private security reports contact info@superjupiter.net. Never include credentials or client data.
